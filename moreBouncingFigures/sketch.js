@@ -5,7 +5,7 @@ createCanvas(600,200)
 
 // insert i value for the amount of figure you want
 
-	for (var i = 0; i < 5; i++){
+	for (var i = 0; i < 15; i++){
 		bubbles[i] = {
 			x: random(0, width),
 			y: random(0, height),
