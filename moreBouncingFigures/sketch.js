@@ -9,8 +9,8 @@ createCanvas(600,200)
 		bubbles[i] = {
 			x: random(0, width),
 			y: random(0, height),
-			xspeed: 3,
-			yspeed: 4,
+			xspeed: random(-1,6),
+			yspeed: random(-1,5),
 			display: function(){
 				stroke(255);
 				ellipse(this.x, this.y, 30, 30);
